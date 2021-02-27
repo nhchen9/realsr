@@ -1,0 +1,13 @@
+df2k:
+  tdsr:
+    source: '../datasets/Corrupted-tr-x'
+    target: '../datasets/Corrupted-tr-y'
+    valid: '../datasets/Corrupted-va-x'
+dped:
+  clean:
+    hr:
+      train: '../../ntire20/DPEDiphone-tr-x'
+      valid: '../../ntire20/DPEDiphone-va'
+datasets:
+  df2k: '../datasets/DF2K'
+  dped: '../datasets/DPED'
